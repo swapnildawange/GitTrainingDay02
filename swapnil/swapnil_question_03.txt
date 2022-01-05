@@ -3,3 +3,5 @@ Question : How to combine two commits into one commit? For Example, you have 4 d
 Answer : You can use the following command to combine two commits into one commit.
     1. use interactive rebase mode
         git rebase -i origin swapnil
+    2. use HEAD ~ <number of commits>
+        this will tell we want to change the history since the last commit to the number of commits specified.
