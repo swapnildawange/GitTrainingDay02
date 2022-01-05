@@ -3,4 +3,24 @@ Question : Difference between --force push and --force-with-lease, You have to s
 Answer :
 
 1. --force push is used to push the changes to the remote repository.
+    whenever you push changes to the remote repository, git try to find a linear
+    path between local and remote commit if the path is not found, git push will fail
+
+    to solve this problem we can use --force to forcefully push the changes to the remote repository.
+
+    Example : in previous question we have used rebase command to delete a commit
+    suppose your team member have pushed a commit to the remote repository and you want to make some changes to your older commits
+    and you did not do git pull to get the latest changes from the remote repository pushed by your team member
+    and you used the rebase command to change the commit on your local repository but now
+    when you tries to push the changes to the remote repository, git will not find a linear path between local and remote commit
+    and git push will fail.then you can use --force to forcefully push the changes to the remote repository.
+
 2. --force-with-lease is used to push the changes to the remote repository.
+    this flag allow us to push --force our changes but with a guarantee that we won’t overwrite any changes that have been pushed to the remote repository by someone else
+
+    scenarios when we use --force-with-lease :
+    Rebase a branch onto another branch,
+    Rewording a commit in the past,
+    Squashing a few commits together,
+    Reordering the commits, or
+    Changing the author of a previous commit.
