@@ -1,0 +1,7 @@
+what is cherry-pick:-
+git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another
+Explain the Use and steps invloved in it:-
+In GitHub Desktop, click Current Branch.
+In the list of branches, click the branch that has the commit that you want to cherry-pick.
+Click History.
+Drag the commit that you want to cherry-pick to the Current Branch menu and drop the commit on the branch that you want to copy the commit to.
