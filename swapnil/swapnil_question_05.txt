@@ -1,0 +1,6 @@
+Question : Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used?
+
+Answer :
+
+1. --force push is used to push the changes to the remote repository.
+2. --force-with-lease is used to push the changes to the remote repository.
