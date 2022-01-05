@@ -1,4 +1,0 @@
-Steps:
-1. use git log to get the reference of the particular commit that you want to cherry-pick
-2. use the following commit :
-    git cherry-pick <commit_reference>
