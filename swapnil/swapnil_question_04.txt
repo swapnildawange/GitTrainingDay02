@@ -8,5 +8,5 @@ Answer :
     git rebase -i HEAD~[number of commits to view]
 
     then select the commits to remove by changing pick to drop
-    then press s to save the changes and then press q to quit
+    then press CTRL+S to save the changes and then press CTRL+X to quit
 
