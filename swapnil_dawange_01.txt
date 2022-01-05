@@ -1,0 +1,16 @@
+Question: What is cherry-pick? Explain the use case of it also write steps to do it.
+Answer:
+1. cherry-pick is a command used to pick commits by reference.
+2. We can copy a commit from one branch to another branch using cherry-pick
+
+Example :
+    In first assignment we created a biodata.txt file and added some data to it.
+    We created branches with our names and added that files on that branch
+    Let suppose I want to add biodata of another intern to my biodata file.
+    I can use cherry-pick command to do that.
+
+
+Steps:
+1. use git log to get the reference of the particular commit that you want to cherry-pick
+2. use the following commit :
+    git cherry-pick <commit_reference>
